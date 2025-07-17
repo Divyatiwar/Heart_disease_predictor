@@ -1,0 +1,65 @@
+{
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope"
+  ],
+  "accuracy": 0.875,
+  "feature_importance": [
+    {
+      "feature": "cp",
+      "importance": 0.20336030788460055
+    },
+    {
+      "feature": "oldpeak",
+      "importance": 0.1534398697285824
+    },
+    {
+      "feature": "trestbps",
+      "importance": 0.11704030338911432
+    },
+    {
+      "feature": "chol",
+      "importance": 0.1135279167470272
+    },
+    {
+      "feature": "age",
+      "importance": 0.11195738957400868
+    },
+    {
+      "feature": "thalach",
+      "importance": 0.1023374113692883
+    },
+    {
+      "feature": "exang",
+      "importance": 0.08836773722302683
+    },
+    {
+      "feature": "restecg",
+      "importance": 0.039941311710275394
+    },
+    {
+      "feature": "sex",
+      "importance": 0.03321320592757836
+    },
+    {
+      "feature": "slope",
+      "importance": 0.02640415422225454
+    },
+    {
+      "feature": "fbs",
+      "importance": 0.010410392224243356
+    }
+  ],
+  "model_type": "RandomForestClassifier",
+  "training_samples": 800,
+  "test_samples": 200
+}
