@@ -6,11 +6,8 @@ An interactive web application that helps users predict the risk of heart diseas
 
 ## 🚀 Live Demo
 
-👉 [Click here to try the Heart Disease Predictor]([https://heart-disease-predictor-tau.vercel.app/])
+👉 [https://heart-disease-predictor-tau.vercel.app/]
 
-> Replace the above link with your actual deployed URL (e.g., Vercel, Netlify, or GitHub Pages)
-
----
 
 ## 🧠 Features
 
