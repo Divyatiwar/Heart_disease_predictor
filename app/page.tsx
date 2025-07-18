@@ -103,7 +103,7 @@ export default function HeartDiseasePredictor() {
       const result = await response.json();
       setPrediction(result);
     } catch (error) {
-      console.error("Prediction error:", error);
+      console.error("Error:", error);
       // Fallback prediction for demo
       const mockResult: PredictionResult = {
         prediction:
@@ -464,7 +464,7 @@ export default function HeartDiseasePredictor() {
               {currentStep === 1 &&
                 "Now we need your vital signs and measurements"}
               {currentStep === 2 && "Finally, some medical history details"}
-              {currentStep === 3 && "Here are your ML-powered results"}
+              {currentStep === 3 && "Here are your results"}
             </CardDescription>
           </CardHeader>
           <CardContent>{renderStep()}</CardContent>
@@ -481,7 +481,7 @@ export default function HeartDiseasePredictor() {
               {currentStep === 2 ? (
                 <Button onClick={handlePredict} variant="danger">
                   <Heart />
-                  Run ML Prediction
+                  Submit Details
                 </Button>
               ) : (
                 <Button onClick={handleNext}>Next</Button>

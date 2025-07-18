@@ -19,11 +19,11 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json(result);
   } catch (error) {
-    console.error("Prediction error:", error);
+    console.error("Error:", error);
 
     // Fallback response
     return NextResponse.json({
-      prediction: "Unable to process prediction",
+      prediction: "Unable to process ",
       confidence: 0,
       riskLevel: "moderate",
       recommendations: [
